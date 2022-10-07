@@ -1,5 +1,5 @@
 #!/bin/sh
-readonly _rabbitmq_env_base_dir='/home/lbakken/development/lukebakken/rabbitmq-server-6041/RabbitMQ Sérvér - Евгений'
+readonly _rabbitmq_env_base_dir='@@DIR@@'
 ADVANCED_CONFIG_FILE="$_rabbitmq_env_base_dir/advanced.config"
 CONFIG_FILE="$_rabbitmq_env_base_dir/rabbitmq.conf"
 ENABLED_PLUGINS_FILE="$_rabbitmq_env_base_dir/enabled_plugins"

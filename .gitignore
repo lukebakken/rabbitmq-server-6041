@@ -1,3 +1,4 @@
 db/
 log/
 rabbitmq.conf
+rabbitmq-env.conf
